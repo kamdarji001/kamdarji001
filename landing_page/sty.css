@@ -1,0 +1,127 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .photo{
+       float:unset;
+       padding-left: 20%;
+       padding-top: 30px;
+  }
+
+  .photo1{
+    float:unset;
+    padding-left: 10%;
+    padding-top: 30px;
+}
+ 
+  /* Header Styles */
+  header {
+    background-color: #7ac8ea;
+    color: rgb(30, 29, 29);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+   /* font-size: 1.5rem;*/
+    font-weight: bold;
+    position: relative;
+    margin: 20px;
+
+    /* left: 30px;
+    top: 7px; */
+    border-radius: 20px;
+    overflow: hidden;
+    object-position: center;
+    height: 40px;
+  }
+  .nav-links {
+    
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f6d87d;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('education.jpeg');
+    background-size: cover;
+    color: rgb(246, 120, 128);
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .si{
+   /* padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 30px;
+   padding-bottom: 30px; */
+   padding: 30px 50px;
+   margin: 20px 5px;
+   background-color: rgb(48 195 150 / 63%)
+  }
+  .cen{
+    text-align: center;
+    text-decoration:solid;
+    height: auto;
+    width: auto;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ffc107;
+    color: rgb(83, 77, 77);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff9800;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
